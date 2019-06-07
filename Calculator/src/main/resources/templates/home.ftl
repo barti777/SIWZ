@@ -11,6 +11,7 @@
     <link rel="stylesheet" type="text/css" href="../css/main.css" />
     <title>CurrencyExchangeCalculator</title>
 </head>
+
 <body>
 <div class="container">
     <form method="post">
