@@ -19,9 +19,7 @@ public class MainController {
     private Converter converter;
 
     @GetMapping
-    public String home(Map<String, Object> model) throws MalformedURLException, ParserConfigurationException
-    {
-
+    public String home(Map<String, Object> model) throws MalformedURLException, ParserConfigurationException {
         Provider xml = new ProviderXML();
         List<Currency> currencyList = xml.getData();
         CurrencyList currencyListObject = new CurrencyList(xml.getData());
