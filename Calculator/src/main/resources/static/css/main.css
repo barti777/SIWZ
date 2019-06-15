@@ -1,0 +1,42 @@
+.btn {
+    text-align:center;
+    width: 30%;
+    margin-left: 35%;
+    margin-right: 35%;
+    /*margin: 0 auto;*/
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+.col-6 {
+    text-align: center;
+}
+h1 {
+    margin: 15px;
+}
+.list {
+    max-height: 360px;
+    overflow-y: scroll;
+}
+
+/*.col-sm-1{*/
+    /*width: 100%;*/
+    /*float: left;*/
+
+/*}*/
+
+.container {
+    background-color: steelblue;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-radius: 1%;
+
+}
+
+.input-group{
+    margin: 15px;
+}
+
+.col-sm{
+
+    margin-left: 15px;
+}
